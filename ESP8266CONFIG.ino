@@ -7,7 +7,7 @@ void setup()
     //while (!Serial)   { ; }
  
     // Start the software serial for communication with the ESP8266
-    ESPserial.begin(9600);  
+    ESPserial.begin(9600);  //on my case didn't work, i had to setup to 115200, all then work.
  
     Serial.println("");
     Serial.println("Remember to to set Both NL & CR in the serial monitor.");
